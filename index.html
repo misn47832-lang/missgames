@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pasar Sayur Lucu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Pasar Sayur Lucu</h1>
+      <p>Jualan sayur dan penuhi permintaan pelanggan imut!</p>
+    </header>
+
+    <section class="status-panel">
+      <div class="card">
+        <span>Uang</span>
+        <strong id="money">Rp 25.000</strong>
+      </div>
+      <div class="card">
+        <span>Pelayanan</span>
+        <strong id="score">0</strong>
+      </div>
+      <div class="card">
+        <span>Waktu</span>
+        <strong id="timer">60</strong>s
+      </div>
+    </section>
+
+    <section class="shop-grid">
+      <div class="shop-card" data-name="Wortel" data-price="3000" data-value="10">
+        <div class="emoji">🥕</div>
+        <h2>Wortel</h2>
+        <p>Harga Rp 3.000</p>
+        <button>Beli</button>
+      </div>
+      <div class="shop-card" data-name="Bayam" data-price="2500" data-value="8">
+        <div class="emoji">🥬</div>
+        <h2>Bayam</h2>
+        <p>Harga Rp 2.500</p>
+        <button>Beli</button>
+      </div>
+      <div class="shop-card" data-name="Tomat" data-price="2200" data-value="7">
+        <div class="emoji">🍅</div>
+        <h2>Tomat</h2>
+        <p>Harga Rp 2.200</p>
+        <button>Beli</button>
+      </div>
+      <div class="shop-card" data-name="Kubis" data-price="2800" data-value="9">
+        <div class="emoji">🥦</div>
+        <h2>Kubis</h2>
+        <p>Harga Rp 2.800</p>
+        <button>Beli</button>
+      </div>
+      <div class="shop-card" data-name="Jagung" data-price="3500" data-value="11">
+        <div class="emoji">🌽</div>
+        <h2>Jagung</h2>
+        <p>Harga Rp 3.500</p>
+        <button>Beli</button>
+      </div>
+      <div class="shop-card" data-name="Terong" data-price="2600" data-value="6">
+        <div class="emoji">🍆</div>
+        <h2>Terong</h2>
+        <p>Harga Rp 2.600</p>
+        <button>Beli</button>
+      </div>
+    </section>
+
+    <section class="order-panel">
+      <h2>Pesanan Pelanggan</h2>
+      <div id="orderText" class="order-text">Ambil sayuran yang tepat untuk pelanggan!</div>
+      <div class="order-info">Pilih sayur yang diminta dengan cepat untuk mendapatkan bonus.</div>
+    </section>
+
+    <button id="restartButton" class="restart-button">Mulai Ulang</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
